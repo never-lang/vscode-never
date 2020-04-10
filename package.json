@@ -1,0 +1,25 @@
+{
+    "name": "never-lang",
+    "displayName": "never-lang",
+    "description": "Never language syntax highlighting",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "never",
+            "aliases": ["Never", "never"],
+            "extensions": [".nev"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "never",
+            "scopeName": "source.nev",
+            "path": "./syntaxes/never.tmLanguage.json"
+        }]
+    }
+}
