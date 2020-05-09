@@ -33,18 +33,18 @@
         "keywords": {
             "patterns": [{
                 "name": "keyword.control.never",
-                "match": "\\b(catch|do|enum|else|extern|for|func|if|in|let|match|record|throw|var|while)\\b"
+                "match": "\\b(catch|do|enum|else|extern|for|func|if|in|let|match|range|record|throw|var|while)\\b"
             }]
         },
         "types": {
             "patterns": [
-                { "name": "entity.name.type", "match": "\\b(bool|char|float|int|string)\\b" },
+                { "name": "entity.name.type", "match": "\\b(bool|char|c_ptr|float|int|string|void)\\b" },
                 { "name": "entity.name.type", "match": "\\b[A-Z][A-Za-z0-9_]*\\b" }
             ]
         },
         "literals": {
             "name": "constant.language",
-            "match": "\\b(false,nil|true)\\b"
+            "match": "\\b(c_null|false|nil|true)\\b"
         },
         "strings": {
             "name": "string.quoted.double.never",
