@@ -33,12 +33,12 @@
         "keywords": {
             "patterns": [{
                 "name": "keyword.control.never",
-                "match": "\\b(catch|do|enum|else|extern|for|func|if|in|let|match|range|record|throw|var|while)\\b"
+                "match": "\\b(catch|do|enum|else|extern|for|func|if|in|let|match|module|range|record|throw|use|var|while)\\b"
             }]
         },
         "types": {
             "patterns": [
-                { "name": "entity.name.type", "match": "\\b(bool|char|c_ptr|float|int|string|void)\\b" },
+                { "name": "entity.name.type", "match": "\\b(bool|char|c_ptr|int|long|float|double|string|void)\\b" },
                 { "name": "entity.name.type", "match": "\\b[A-Z][A-Za-z0-9_]*\\b" }
             ]
         },
